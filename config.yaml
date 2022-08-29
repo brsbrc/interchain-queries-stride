@@ -1,10 +1,10 @@
 default_chain: stride-testnet
 chains:
   gaia-testnet:
-    key: blackowltr
+    key: wallet
     chain-id: GAIA
-    rpc-addr: http://149.102.140.217:23657
-    grpc-addr: http://149.102.140.217:23090
+    rpc-addr: http://127.0.0.1:23657
+    grpc-addr: http://127.0.0.1:23090
     account-prefix: cosmos
     keyring-backend: test
     gas-adjustment: 1.2
@@ -16,10 +16,10 @@ chains:
     output-format: json
     sign-mode: direct
   stride-testnet:
-    key: BlackOwl
+    key: wallet
     chain-id: STRIDE-TESTNET-4
-    rpc-addr: http://149.102.140.217:16657
-    grpc-addr: http://149.102.140.217:16090
+    rpc-addr: http://127.0.0.1:16657
+    grpc-addr: http://127.0.0.1:16090
     account-prefix: stride
     keyring-backend: test
     gas-adjustment: 1.2
